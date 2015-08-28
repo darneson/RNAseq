@@ -6,6 +6,11 @@ The whole RNAseq analysis can be roughly divided into three steps:
   <li>Count reads (alignment, assembly, annotation, etc.)</li>
   <li>Interpret data (statistical test, visualization, pathway analysis, etc.)</li>
 </ol>
+The following RNA-seq dataset will be used as an example: <br />
+`/u/nobackup/xyang123/zhaoyuqi/RNA-seq/Yu_project/Sample_HLZ_14 -- Sample_HLZ_25` <br />
+
+## Fastx-Toolkit for Quality Control of the raw reads
+
 
 **Short Version** (only care about known transcripts present in GTF file) Also note that we use HISAT instead of TopHat:
 ![alt text][short-pipeline]
