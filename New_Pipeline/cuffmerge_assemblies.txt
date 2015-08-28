@@ -1,0 +1,8 @@
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_14/HLZ_14.gtf
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_15/HLZ_15.gtf
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_16/HLZ_16.gtf
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_17/HLZ_17.gtf
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_22/HLZ_22.gtf
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_23/HLZ_23.gtf
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_24/HLZ_24.gtf
+/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/stringtie_assemble/HLZ_25/HLZ_25.gtf
