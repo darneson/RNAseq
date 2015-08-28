@@ -20,7 +20,9 @@ The following RNA-seq dataset will be used as an example: <br />
 **Long Version** (when we care about novel transcripts) Again we use HISAT, not TopHat: <br />
 ![alt text][long-pipeline]
 
-[long-pipeline]: https://cloud.githubusercontent.com/assets/12090136/9558326/0de22fea-4d99-11e5-8f23-3b851bbfaa53.png 
+[long-pipeline]: https://cloud.githubusercontent.com/assets/12090136/9558326/0de22fea-4d99-11e5-8f23-3b851bbfaa53.png
+
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
 
 ## Fastx-Toolkit for Quality Control of the raw reads
 The script for the QC is located in the [Fastx_Tookit Folder](https://github.com/darneson/RNAseq/tree/master/New_Pipeline/Fastx_Toolkit), or on Hoffman2: <br />
