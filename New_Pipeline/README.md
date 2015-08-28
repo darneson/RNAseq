@@ -1,5 +1,12 @@
 # New RNAseq Pipeline
 
+The whole RNAseq analysis can be roughly divided into three steps:
+<ol>
+  <li>Quality control (sequence check, de-multiplex, etc.)</li>
+  <li>Count reads (alignment, assembly, annotation, etc.)</li>
+  <li>Interpret data (statistical test, visualization, pathway analysis, etc.)</li>
+</ol>
+
 **Short Version** (only care about known transcripts present in GTF file) Also note that we use HISAT instead of TopHat:
 ![alt text][short-pipeline]
 
