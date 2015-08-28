@@ -1,5 +1,8 @@
 # New RNAseq Pipeline
 
+Contents: <br />
+1. [Fastx-Toolkit](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#fastx-toolkit-for-quality-control-of-the-raw-reads) <br />
+
 The whole RNAseq analysis can be roughly divided into three steps:
 <ol>
   <li>Quality control (sequence check, de-multiplex, etc.)</li>
