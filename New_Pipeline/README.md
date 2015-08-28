@@ -45,7 +45,10 @@ In addition, filter the reads with very low quality. <br />
 `>> fastq_quality_filter -i Sample_HLZ_14/ T1_ HLZ_14.fq -o Sample_HLZ_14/ HLZ_14.fastq -q 20 -p 80 -Q 33 –v` <br />
 Now the reads can be used for the next alignment step.
 
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+
 ## Hisat for aligning RNA-Seq reads to a genome
 
 
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
 
