@@ -2,6 +2,7 @@
 
 Contents: <br />
 1. [Fastx-Toolkit](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#fastx-toolkit-for-quality-control-of-the-raw-reads) <br />
+2. [Hisat] (https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#hisat-for-aligning-rna-seq-reads-to-a-genome) <br />
 
 The whole RNAseq analysis can be roughly divided into three steps:
 <ol>
