@@ -10,11 +10,14 @@ The following RNA-seq dataset will be used as an example: <br />
 `/u/nobackup/xyang123/zhaoyuqi/RNA-seq/Yu_project/Sample_HLZ_14 -- Sample_HLZ_25` <br />
 
 **Short Version** (only care about known transcripts present in GTF file) Also note that we use HISAT instead of TopHat:
-![alt text][short-pipeline]
+![alt text][short-pipeline] 
 
 [short-pipeline]: https://cloud.githubusercontent.com/assets/12090136/9558325/0de2342c-4d99-11e5-82b0-31eb90a4a629.png
 
 **Long Version** (when we care about novel transcripts) Again we use HISAT, not TopHat: <br />
+![alt text][long-pipeline]
+
+[long-pipeline]: https://cloud.githubusercontent.com/assets/12090136/9558326/0de22fea-4d99-11e5-8f23-3b851bbfaa53.png 
 
 ## Fastx-Toolkit for Quality Control of the raw reads
 The script for the QC is located in the [Fastx_Tookit Folder](https://github.com/darneson/RNAseq/tree/master/New_Pipeline/Fastx_Toolkit), or on Hoffman2: <br />
@@ -26,6 +29,4 @@ First, generate a summary table for the whole sample. <br />
 Also, the codes in the file are for batch running, please modify accordingly. <br />
 
 
-![alt text][long-pipeline]
 
-[long-pipeline]: https://cloud.githubusercontent.com/assets/12090136/9558326/0de22fea-4d99-11e5-8f23-3b851bbfaa53.png
