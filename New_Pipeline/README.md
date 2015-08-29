@@ -78,3 +78,28 @@ runtime ~00:05:00 <br />
 
 [Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
 
+##Samtools for Converting Sam to Bam
+
+
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+
+##Stringtie for Assembling Transcripts
+
+
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+
+##Cuffmerge for Pooling Transcriptome and Novel Transcripts
+
+
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+
+##Stringtie for Ballgown Format
+
+
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+
+##Ballgown for Gene Signatures
+
+
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+
