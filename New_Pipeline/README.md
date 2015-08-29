@@ -28,7 +28,7 @@ The following RNA-seq dataset will be used as an example: <br />
 
 [long-pipeline]: https://cloud.githubusercontent.com/assets/12090136/9558326/0de22fea-4d99-11e5-8f23-3b851bbfaa53.png
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ## Fastx-Toolkit for Quality Control of the raw reads
 The script for the QC is located in the [Fastx_Tookit Folder](https://github.com/darneson/RNAseq/tree/master/New_Pipeline/Fastx_Toolkit), or on Hoffman2: <br />
@@ -51,7 +51,7 @@ In addition, filter the reads with very low quality. <br />
 `>> fastq_quality_filter -i Sample_HLZ_14/ T1_ HLZ_14.fq -o Sample_HLZ_14/ HLZ_14.fastq -q 20 -p 80 -Q 33 –v` <br />
 Now the reads can be used for the next alignment step.
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ## Hisat for Aligning RNA-Seq Reads to a Genome
 
@@ -81,30 +81,30 @@ runtime ~00:05:00 <br />
 24 - 89.96% <br />
 25 - 90.07% <br />
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ##Samtools for Converting Sam to Bam
 
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ##Stringtie for Assembling Transcripts
 
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ##Cuffmerge for Pooling Transcriptome and Novel Transcripts
 
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ##Stringtie for Ballgown Format
 
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ##Ballgown for Gene Signatures
 
 
-[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#new-rnaseq-pipeline)
+[Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
