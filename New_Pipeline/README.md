@@ -1,8 +1,13 @@
 # New RNAseq Pipeline
 
 Contents: <br />
-1. [Fastx-Toolkit](https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#fastx-toolkit-for-quality-control-of-the-raw-reads) <br />
-2. [Hisat] (https://github.com/darneson/RNAseq/blob/master/New_Pipeline/README.md#hisat-for-aligning-rna-seq-reads-to-a-genome) <br />
+1. [Fastx-Toolkit](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#fastx-toolkit-for-quality-control-of-the-raw-reads) <br />
+2. [Hisat](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#hisat-for-aligning-rna-seq-reads-to-a-genome) <br />
+3. [Samtools](https://github.com/darneson/RNAseq/tree/master/New_Pipeline#samtools-for-converting-sam-to-bam) <br />
+4. [Stringtie 1](https://github.com/darneson/RNAseq/tree/master/New_Pipeline#stringtie-for-assembling-transcripts) <br />
+5. [Cuffmerge](https://github.com/darneson/RNAseq/tree/master/New_Pipeline#cuffmerge-for-pooling-transcriptome-and-novel-transcripts) <br />
+6. [Stringtie2](https://github.com/darneson/RNAseq/tree/master/New_Pipeline#stringtie-for-ballgown-format) <br />
+7. [Ballgown](https://github.com/darneson/RNAseq/tree/master/New_Pipeline#ballgown-for-gene-signatures) <br />
 
 The whole RNAseq analysis can be roughly divided into three steps:
 <ol>
