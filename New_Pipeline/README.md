@@ -99,7 +99,19 @@ Output is located in: <br />
 [Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ##Stringtie for Assembling Transcripts
-
+StringTie, like Cufflinks, is a transcript assembler <br />
+stringtie-1.0.4.Linux_x86_64.tar.gz Linux Binary can be obtained from [Here](http://ccb.jhu.edu/software/stringtie/#install) <br />
+Transfer the binary to Hoffman2 and extract the file with the following command: <br />
+`tar -zxvf yourfile.tar.gz` <br />
+To add `stringtie` to your global path: <br />
+Type: `vim ~/.bash_profile` <br />
+Type:   `a`   to INSERT text <br />
+Add the following lines to your bash profile <br />
+`PATH=$PATH:/path/to/binary/stringtie-1.0.4.Linux_x86_64` <br />
+`export PATH` <br />
+Then type:  `<esc> :wq`  to write and quit <br />
+As Ensembl denotes chromosomes as "1, 2, 3, ... etc" and UCSC and Galaxy denote chromosomes as "chr 1, chr 2, chr 3, ... etc". The genes.gtf file from the downloaded Bowtie2 indexes genes in the Ensembl method and the Hisat indexes obtained from the Hisat website indexes genes in the UCSC method. To address this issue, a new GTF file is generated from the genes.gtf file using the following command: <br />
+`awk '{print "chr"$0}' /u/nobackup/xyang123/zhaoyuqi/RNA-seq/Bowtie2Index/genes.gtf | sed 's/chrMT/chrM/g' > /u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/Reference/mm10.ensembl-for-stringtie.gtf` <br />
 
 [Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
