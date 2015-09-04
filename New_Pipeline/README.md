@@ -103,6 +103,7 @@ StringTie, like Cufflinks, is a transcript assembler <br />
 stringtie-1.0.4.Linux_x86_64.tar.gz Linux Binary can be obtained from [Here](http://ccb.jhu.edu/software/stringtie/#install) <br />
 Transfer the binary to Hoffman2 and extract the file with the following command: <br />
 `tar -zxvf yourfile.tar.gz` <br />
+Vim commands can be found [Here](http://www.fprintf.net/vimCheatSheet.html) <br />
 To add `stringtie` to your global path: <br />
 Type: `vim ~/.bash_profile` <br />
 Type:   `a`   to INSERT text <br />
@@ -116,7 +117,16 @@ As Ensembl denotes chromosomes as "1, 2, 3, ... etc" and UCSC and Galaxy denote 
 [Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
 ##Cuffmerge for Pooling Transcriptome and Novel Transcripts
-
+We will use Cuffmerge as part of the Cufflinks 2.2.1 package. <br />
+First, create a file `assemblies.txt` which has the locations of all the `transcript.gtf` files created by the stringtie assemble in the previous step of the pipeline. <br />
+Use the new mm10 gtf file (generated previously using awk) and a new mm10 genome.fa file generated from the bowtie2 indexes, but again we change 1, 2, 3, etc. into chr1, chr2, chr3 <br />
+Cuffmerge example scripts are available in the [Cuffmerge Folder](https://github.com/darneson/RNAseq/tree/master/New_Pipeline/Cuffmerge) <br />
+Run: <br />
+>> `cuffmerge -p 4 -g ./genes.gtf -s ./genome.fa -o ./cuffmerge assemblies.txt` <br />
+Scripts to run are located in: <br />
+`/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/Scripts_To_Run/cuffmerge` <br />
+Output is located in: <br />
+`/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/cuffmerge`
 
 [Return to Contents](https://github.com/darneson/RNAseq/blob/master/New_Pipeline#new-rnaseq-pipeline)
 
