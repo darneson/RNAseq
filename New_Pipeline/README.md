@@ -122,7 +122,7 @@ First, create a file `assemblies.txt` which has the locations of all the `transc
 Use the new mm10 gtf file (generated previously using awk) and a new mm10 genome.fa file generated from the bowtie2 indexes, but again we change 1, 2, 3, etc. into chr1, chr2, chr3 <br />
 Cuffmerge example scripts are available in the [Cuffmerge Folder](https://github.com/darneson/RNAseq/tree/master/New_Pipeline/Cuffmerge) <br />
 Run: <br />
->> `cuffmerge -p 4 -g ./genes.gtf -s ./genome.fa -o ./cuffmerge assemblies.txt` <br />
+`>>cuffmerge -p 4 -g ./genes.gtf -s ./genome.fa -o ./cuffmerge assemblies.txt` <br />
 Scripts to run are located in: <br />
 `/u/home/d/darneson/nobackup-xyang123/RNA_Seq_Project_Yuqi/Scripts_To_Run/cuffmerge` <br />
 Output is located in: <br />
